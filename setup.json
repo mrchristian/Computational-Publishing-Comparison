@@ -1,6 +1,6 @@
 {
   "__comment": "Set values to false if no link should be created.",
-  "repoURL": "https://github.com/TIBHannover/ADA-Book-Template/",
+  "repoURL": "https://github.com/mrchristian/Computational-Publishing-Comparison/",
   "repoBranch": "main",
   "vivlioURL": "https://vivliostyle.org/viewer/",
   "podURL": "https://doabooks.org/"
