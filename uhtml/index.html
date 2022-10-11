@@ -124,6 +124,11 @@
                 </a>
               </li>
               <li>
+                <a href="#H8368575">
+                  Platform Markup tests
+                </a>
+              </li>
+              <li>
                 <a href="#H3665340">
                   Test: Digital Objects
                 </a>
@@ -140,12 +145,19 @@
     </div>
     <div class="article-part article-title" id="_1_0">Computational Platforms Comparison</div>
     <div class="article-part article-richtext article-body">
-      <p>The idea is to see if the computational publishing platforms could be a presentation platforms for authors to create publication from LoD collections.</p>
-      <p>Currently most digital heritage archives are obscured by database models of presentation.</p>
+      <p>The idea is to see if computational publishing platforms could be used as presentation platforms for authors to create publication from LoD collections.</p>
+      <p>The use case is in architecture with content from the collection of Baroque frescos and ceiling painting in Germany held by the Barocke Deckenmalerei in Deutschland <a href="https://www.deckenmalerei.eu/" title="https://www.deckenmalerei.eu/">CbDD</a>.</p>
+      <p>This test use case is based on work being done by Task Area 5 - TIB/OSL team who are working with the CbDD.</p>
+      <p>Currently most digital heritage archives are obscured by often necessary database models of presentation - adding an autoring layer to these collection using computational publishing would add useful way to work with these collections.</p>
       <h2 id="H4833987">Give example and make demo:</h2>
       <ul id="L86391751">
         <li>
-          <p>First as a dummy doc in ADA to show what is meant</p>
+          <p>First as a dummy doc in ADA Pipeline to show what is meant</p>
+          <ul id="L74295051">
+            <li>
+              <p>The content would be based around replicated an existing work on a (<a href="https://www.deckenmalerei.eu/42d06165-58e7-4653-bfe4-3d5f7091fc33#7fb9a718-7e18-4053-81d9-3689f3f65548 " title="https://www.deckenmalerei.eu/42d06165-58e7-4653-bfe4-3d5f7091fc33#7fb9a718-7e18-4053-81d9-3689f3f65548 ">Die Tafelstube</a> / The Dining Room) as there are existing digital objects for this room and there are written descriptions.</p>
+            </li>
+          </ul>
         </li>
         <li>
           <p>Then in one of the platforms below: probably Curvenote, maybe Jupyter Book?</p>
@@ -247,12 +259,13 @@
       <p></p>
       <h2 id="H5463357">GitHub demo page</h2>
       <p>Collection working notes - <a href="https://github.com/mrchristian/computational-publishing-for-culture" title="https://github.com/mrchristian/computational-publishing-for-culture">https://github.com/mrchristian/computational-publishing-for-culture</a> </p>
-      <h2 id="H3665340">Test: Digital Objects</h2>
-      <table id="T63986871" class="table-100 table-center table-fixed" data-width="100" data-aligned="center" data-layout="fixed" data-category="none">
+      <h2 id="H8368575">Platform Markup tests</h2>
+      <p>These are simple but important tests to see if platforms can handle basic academic markup. A <a href="https://tibhannover.github.io/ADA-Book-Template/" title="https://tibhannover.github.io/ADA-Book-Template/">benchmark</a> is already in place here with the ADA Pipeline.</p>
+      <table id="T55909361" class="table-100 table-center table-fixed" data-width="100" data-aligned="center" data-layout="fixed" data-category="none">
         <tbody>
           <tr>
             <th>
-              <p>Objects and formatting (need to separate out)</p>
+              <p>Markup</p>
             </th>
             <th>
               <p></p>
@@ -280,7 +293,7 @@
           </tr>
           <tr>
             <td>
-              <p>Text markup</p>
+              <p>Text markup: bold, emphasis, etc</p>
             </td>
             <td>
               <p></p>
@@ -305,6 +318,53 @@
             <td>
               <p></p>
             </td>
+          </tr>
+          <tr>
+            <td>
+              <p>Footnote</p>
+            </td>
+            <td>
+              <p></p>
+            </td>
+            <td>
+              <p></p>
+            </td>
+            <td>
+              <p></p>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <p>Citation / change CSL</p>
+            </td>
+            <td>
+              <p></p>
+            </td>
+            <td>
+              <p></p>
+            </td>
+            <td>
+              <p></p>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      <h2 id="H3665340">Test: Digital Objects</h2>
+      <table id="T63986871" class="table-100 table-center table-fixed" data-width="100" data-aligned="center" data-layout="fixed" data-category="none">
+        <tbody>
+          <tr>
+            <th>
+              <p>Objects and formatting (need to separate out)</p>
+            </th>
+            <th>
+              <p></p>
+            </th>
+            <th>
+              <p></p>
+            </th>
+            <th>
+              <p></p>
+            </th>
           </tr>
           <tr>
             <td>
@@ -336,16 +396,16 @@
           </tr>
           <tr>
             <td>
-              <p>Thoth biblio info</p>
+              <p>Thoth biblio info via API</p>
             </td>
             <td>
-              <p></p>
+              <p><a href="https://github.com/SimonXIX/thoth_wikidata_integration">https://github.com/SimonXIX/thoth_wikidata_integration</a>&nbsp;</p>
             </td>
             <td>
-              <p></p>
+              <p>Example outputs <a href="https://test.wikidata.org/wiki/Q223384">https://test.wikidata.org/wiki/Q223384</a></p>
             </td>
             <td>
-              <p></p>
+              <p>Open Refine disabiguate? <a href="https://gitlab.com/nfdi4culture/ta5-knowledge-graph/openrefine-wikibase" title="https://gitlab.com/nfdi4culture/ta5-knowledge-graph/openrefine-wikibase">https://gitlab.com/nfdi4culture/ta5-knowledge-graph/openrefine-wikibase</a></p>
             </td>
           </tr>
           <tr>
@@ -381,7 +441,7 @@
               <p>Image</p>
             </td>
             <td>
-              <p></p>
+              <p><a href="https://wikibase.wbworkshop.tibwiki.io/wiki/Main_Page" title="https://wikibase.wbworkshop.tibwiki.io/wiki/Main_Page">https://wikibase.wbworkshop.tibwiki.io/wiki/Main_Page</a> </p>
             </td>
             <td>
               <p></p>
@@ -423,7 +483,7 @@
               <p>Deep Image zoom</p>
             </td>
             <td>
-              <p></p>
+              <p><a href="https://www.bildindex.de/document/obj20119905?medium=fmd10001093" title="https://www.bildindex.de/document/obj20119905?medium=fmd10001093">Source</a></p>
             </td>
             <td>
               <p></p>
@@ -437,7 +497,7 @@
               <p>Compakt model</p>
             </td>
             <td>
-              <p></p>
+              <p><a href="https://kompakkt.wbworkshop.tibwiki.io/explore" title="https://kompakkt.wbworkshop.tibwiki.io/explore">https://kompakkt.wbworkshop.tibwiki.io/explore</a></p>
             </td>
             <td>
               <p></p>
@@ -451,7 +511,7 @@
               <p>TIB AV Portal video</p>
             </td>
             <td>
-              <p></p>
+              <p><a href="https://av.tib.eu/" title="https://av.tib.eu/">https://av.tib.eu/</a></p>
             </td>
             <td>
               <p></p>
@@ -479,7 +539,7 @@
               <p>Wikidata LoD info: Painting (customize)</p>
             </td>
             <td>
-              <p></p>
+              <p><a href="https://query.wbworkshop.tibwiki.io/" title="https://query.wbworkshop.tibwiki.io/">https://query.wbworkshop.tibwiki.io/</a></p>
             </td>
             <td>
               <p></p>
@@ -528,62 +588,6 @@
             </td>
             <td>
               <p>Show all castles on Leaflet map with Baroque paintings as per CbDD entries. Allow for change of artists.</p>
-            </td>
-            <td>
-              <p></p>
-            </td>
-            <td>
-              <p></p>
-            </td>
-          </tr>
-          <tr>
-            <td>
-              <p></p>
-            </td>
-            <td>
-              <p></p>
-            </td>
-            <td>
-              <p></p>
-            </td>
-            <td>
-              <p></p>
-            </td>
-          </tr>
-          <tr>
-            <td>
-              <p></p>
-            </td>
-            <td>
-              <p></p>
-            </td>
-            <td>
-              <p></p>
-            </td>
-            <td>
-              <p></p>
-            </td>
-          </tr>
-          <tr>
-            <td>
-              <p></p>
-            </td>
-            <td>
-              <p></p>
-            </td>
-            <td>
-              <p></p>
-            </td>
-            <td>
-              <p></p>
-            </td>
-          </tr>
-          <tr>
-            <td>
-              <p></p>
-            </td>
-            <td>
-              <p></p>
             </td>
             <td>
               <p></p>
